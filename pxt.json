@@ -1,0 +1,28 @@
+{
+    "name": "TEST",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Acebott": "github:ACEBOTTteam/Acebott#03ae1dac2021c4ac10fa5e03c658b846c0a06795",
+        "tutorial-template": "github:microbit-foundation/makecode-tutorials#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tutorial.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
